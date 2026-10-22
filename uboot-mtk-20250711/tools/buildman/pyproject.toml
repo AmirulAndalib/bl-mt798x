@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=84.2.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -9,7 +9,7 @@ authors = [
   { name="Simon Glass", email="sjg@chromium.org" },
 ]
 dependencies = [
-    "filelock >= 3.0.12",
+    "filelock >= 3.20.3",
     "u_boot_pylib >= 0.0.6",
     "patch-manager >= 0.0.6"
 ]
